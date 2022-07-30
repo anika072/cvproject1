@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:beige;
+    padding: 0px;
+    font-family: 'Cormorant SC', serif;
+    color: bisque;
+}
+.container{
+    max-width: 1000px;
+    background-color:#6d0404;
+    margin: 0 auto;
+}
+.image-edit{
+    height: 210px;
+    width: 150px;
+    padding: 10px;
+    float: left;
+}
+.image-edit:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header-bio-edit{
+    
+    padding: 30px;
+}
+.header-link-edit{
+    text-decoration: none;
+    color:bisque;
+}
+.header-link-edit:hover{
+    text-decoration: underline;
+    color: black;
+    opacity: 0.5;
+}
+.header-link{
+    float: top;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    margin: 0px;
+    border: solid bisque 3px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    width: 100%;
+
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
